@@ -1,0 +1,14 @@
+#logo{
+    display: flex;
+    width: 15vw;
+    height: 20vh;
+    background: url("../../../assets/logo.svg") no-repeat center center;
+    background-size: contain;
+    margin-top: 50px;
+}
+@media only screen and (max-width: 768px) {
+    #logo{
+        width:300px !important;
+        height:40vh !important; 
+    }
+}

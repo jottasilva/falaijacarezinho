@@ -1,0 +1,23 @@
+<!-- templates/api/post_list.html -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Posts</title>
+</head>
+<body>
+    <h1>Lista de Posts</h1>
+    <ul>
+        {% for post in posts %}
+            <li>
+                <strong>{{ post.feedback_author }}</strong>: {{ post.feedback_text }} (Publicado em {{ post.pub_date }})
+            </li>
+            <hr>
+        {% empty %}
+            <li>Nenhum post encontrado.</li>
+        {% endfor %}
+    </ul>
+   
+</body>
+</html>

@@ -1,0 +1,76 @@
+#footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin:40px 0 10px 0;
+    background-color: #042c4d;
+}
+.footer{
+    display: flex;
+    width:70vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 2% 0;
+}
+.footer ul li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 5px;
+    color: #3eb2f9;
+    align-items: center;
+    gap: 10px;
+}
+.footer p{
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #fff;
+}
+section h2{
+    color: #fff;
+    font-size: 2.7rem;
+}
+.registers, .infos, .contacts{
+    display: flex;
+    width: 30%;
+    gap:5px;
+    flex-direction: column;
+
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.redes{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.contacts img{
+    width: 80%;
+    height: auto;
+}
+@media only screen and (max-width: 768px) {
+    #footer{
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .footer{
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 80vw !important;
+        gap: 30px;
+    }
+    .footer p{
+        font-size: 24px;
+    }
+ 
+ 
+}

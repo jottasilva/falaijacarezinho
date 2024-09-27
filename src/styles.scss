@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Helvetica"; 
+}
+
+body{
+    //background: url("assets/bg.svg") no-repeat;
+    background-size: cover;
+    background-position:fixed;
+   // overflow-x: hidden;
+}
+.feedback-container{
+    width: 25vw;
+}
+@media only screen and (max-width: 768px) {
+    .feedback-container {
+        width: 100% !important; 
+        padding: 10px !important; 
+    }
+    #footer{
+        width:100% !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .registers, .infos, .contacts{
+        display: flex;
+        width: 80% !important;
+        text-align: center;
+        flex-direction: column !important;
+        margin: 10px;
+    }
+    #footer{
+        gap: 30px !important;
+    }
+    #footer h2{
+        font-size: clamp(2rem, 2.5vw, 2rem) !important;
+    }
+    #footer ul li{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align:  center !important;
+        font-size: clamp(1rem, 2.5vw, 2rem);
+    }
+    .contacts{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
+    }
+    .developed{
+        flex-direction: column !important;
+        width: 100% !important;
+        margin-bottom:3cqmin !important;
+    }
+    .developed img{
+        width:50% !important;
+        height: auto;
+    }
+}

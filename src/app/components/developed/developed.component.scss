@@ -1,0 +1,22 @@
+.developed{
+    display: flex;
+    width: 40vw;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: row;
+}
+.developed span{
+    display: flex;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #666;
+    text-align: center;
+    font-size: 1rem;
+}
+.developed img{
+    width: 23%;
+    height: auto;
+}

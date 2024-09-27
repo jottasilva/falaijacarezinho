@@ -1,0 +1,82 @@
+.icon{
+    display: flex;
+    margin: 0 auto;
+    width: 46px;
+    height: 46px;
+    background: url("../../../assets/icons/ideia.png") no-repeat center;
+    background-size: contain;
+}
+.feedback-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+.feedback-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.feedback-header .name{
+    font-size: 12px;
+    color: #a4a4a4;
+}
+.feedback-header .date{
+    font-size: 10px;
+    color: #a4a4a4;
+}
+.feedback-header h3 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;
+}
+.feedback-desc{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:2px;
+    padding:0 15px;
+}
+.feedback-header span {
+    font-size: 12px;
+    color: #888;
+}
+.feedback-body {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+.feedback-body p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.feedback-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+}
+.feedback-footer .status{
+    display: flex;
+    width: 10%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding:3px 5px;
+    color: #fff;
+    font-family:Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 9px;
+    background-color: #008f5b;
+}
+.feedback-footer span{
+    font-weight: bold;
+}
